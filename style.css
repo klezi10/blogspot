@@ -139,3 +139,13 @@ nav a:focus {
 .col-2 {
   width: 25%;
 }
+
+footer {
+  text-align: center;
+  background: var(--main-color);
+  padding: 2em 0;
+}
+
+footer p {
+  margin: 0;
+}
