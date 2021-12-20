@@ -4,9 +4,18 @@
   --main-color: #8089b4;
   --light-accent: #eb3e8e;
   --dark-accent: #3b5d7e;
+  --header-font: 'PT Serif', serif;
+  --subheader-font: 'Varela Round', sans-serif;
+  --text-font: 'Spinnaker', sans-serif;
 }
 
 body {
   background: var(--background-color);
   color: var(--text-color);
+  font-family: var(--text-font);
+}
+
+h1 {
+  font-family: var(--header-font);
+  font-weight: 400;
 }
