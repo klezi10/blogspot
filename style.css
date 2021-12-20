@@ -105,12 +105,6 @@ nav a:focus {
 
 /* BODY */
 
-.container-body {
-  display: block;
-  margin: 0 auto;
-  max-width: 900px;
-}
-
 .featured-article {
   width: 90%;
   border-bottom: 1px solid var(--text-color);
