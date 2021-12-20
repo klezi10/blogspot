@@ -19,19 +19,25 @@ body {
 h1 {
   margin: 0;
   font-family: var(--header-font);
+  color: var(--background-color);
   font-weight: 400;
   font-size: 2rem;
 }
 
 header {
-  background: var(--dark-accent);
+  background: var(--text-color);
   padding: 2em 0;
+}
+
+.title a {
+  text-decoration: none;
 }
 
 .subtitle {
   font-weight: bold;
   margin: 0;
   font-size: 0.9rem;
+  color: var(--dark-accent);
 }
 
 .container {
@@ -60,22 +66,23 @@ nav li {
 
 nav a {
   text-decoration: none;
-  color: var(--main-color);
+  color: var(--background-color);
   padding: 0.25em 0;
   font-weight: bold;
+  transition: all 150ms ease-in-out;
 }
 
 nav a:hover,
 nav a:focus {
-  color: #1792d2;
+  color: var(--dark-accent);
 }
 
 .current-page {
-  color: var(--text-color);
+  border-bottom: 1px solid var(--background-color);
 }
 
 .current-page:hover {
-  color: var(--text-color);
+  color: var(--background-color);
 }
 
 @media (max-width: 675px) {
