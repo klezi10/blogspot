@@ -102,3 +102,40 @@ nav a:focus {
     text-align: center;
   }
 }
+
+/* BODY */
+
+.container-body {
+  display: block;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.featured-article {
+  width: 90%;
+  border-bottom: 1px solid var(--text-color);
+}
+
+.main-articles-posts {
+  width: 90%;
+}
+
+.beach-photo {
+  max-width: 100%;
+}
+
+.img-preview {
+  max-width: 100%;
+}
+
+.columns {
+  display: flex;
+}
+
+.col-1 {
+  width: 75%;
+}
+
+.col-2 {
+  width: 25%;
+}
