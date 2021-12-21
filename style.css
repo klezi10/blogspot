@@ -14,14 +14,33 @@ body {
   background: var(--background-color);
   color: var(--text-color);
   font-family: var(--text-font);
+  font-size: 1.125rem;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: var(--header-font);
+}
+
+h2,
+h3 {
+  color: var(--text-color);
 }
 
 h1 {
-  margin: 0;
-  font-family: var(--header-font);
   color: var(--background-color);
-  font-weight: 400;
   font-size: 2rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  opacity: 0.7;
 }
 
 header {
@@ -29,15 +48,40 @@ header {
   padding: 2em 0;
 }
 
-.title a {
+.logo-title a {
   text-decoration: none;
 }
 
-.subtitle {
+.logo-subtitle,
+.continue-reading {
+  font-family: var(--subheader-font);
   font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2.8px;
+}
+
+.logo-subtitle {
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   color: var(--dark-accent);
+}
+
+.continue-reading,
+.article-info {
+  font-size: 0.875rem;
+}
+
+.continue-reading {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+main a:hover {
+  color: var(--text-color);
+}
+
+.article-info {
+  opacity: 0.7;
 }
 
 .container {
@@ -52,6 +96,13 @@ header {
 }
 
 /* navigation */
+
+nav {
+  text-transform: uppercase;
+  letter-spacing: 3.2px;
+  font-weight: bold;
+  font-size: 16px;
+}
 
 nav ul {
   list-style-type: none;
@@ -68,7 +119,6 @@ nav a {
   text-decoration: none;
   color: var(--background-color);
   padding: 0.25em 0;
-  font-weight: bold;
   transition: all 150ms ease-in-out;
 }
 
@@ -110,7 +160,7 @@ nav a:focus {
   border-bottom: 1px solid var(--text-color);
 }
 
-.beach-photo {
+.featured-photo {
   max-width: 100%;
 }
 
