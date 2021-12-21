@@ -48,6 +48,20 @@ header {
   padding: 2em 0;
 }
 
+a {
+  color: #bca6d8;
+  transition: all 150ms ease-in-out;
+}
+
+a:hover,
+a:focus {
+  color: var(--text-color);
+}
+
+strong {
+  font-weight: bold;
+}
+
 .logo-title a {
   text-decoration: none;
 }
@@ -74,10 +88,13 @@ header {
 .continue-reading {
   text-decoration: none;
   color: var(--main-color);
+  transition: all 150ms ease-in-out;
 }
 
-main a:hover {
+.continue-reading:hover,
+.continue-reading:focus {
   color: var(--text-color);
+  text-decoration: underline;
 }
 
 .article-info {
