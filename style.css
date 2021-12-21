@@ -118,18 +118,6 @@ nav a:focus {
   max-width: 100%;
 }
 
-.columns {
-  display: flex;
-}
-
-.col-1 {
-  width: 75%;
-}
-
-.col-2 {
-  width: 25%;
-}
-
 footer {
   text-align: center;
   background: var(--main-color);
