@@ -171,6 +171,7 @@ nav a:focus {
 footer {
   text-align: center;
   background: var(--main-color);
+  color: var(--background-color);
   padding: 2em 0;
 }
 
