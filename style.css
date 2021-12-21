@@ -110,10 +110,6 @@ nav a:focus {
   border-bottom: 1px solid var(--text-color);
 }
 
-.main-articles-posts {
-  width: 90%;
-}
-
 .beach-photo {
   max-width: 100%;
 }
