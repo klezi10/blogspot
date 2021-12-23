@@ -52,6 +52,7 @@ header {
   text-align: center;
   background: var(--text-color);
   padding: 2em 0;
+  margin-bottom: 2em;
 }
 
 a {
@@ -180,6 +181,10 @@ nav a:focus {
   aside {
     width: 20%;
   }
+
+  .logo-title {
+    text-align: left;
+  }
 }
 
 /* articles */
@@ -204,6 +209,34 @@ nav a:focus {
   order: 1;
 }
 
+@media (min-width: 675px) {
+  .recent-articles {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .recent-articles-body {
+    width: 68%;
+  }
+
+  .recent-articles-img {
+    width: 30%;
+  }
+
+  .featured-article {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article-img {
+    order: -2;
+  }
+
+  .article-info {
+    order: -1;
+  }
+}
+
 footer {
   text-align: center;
   background: var(--main-color);
@@ -213,4 +246,8 @@ footer {
 
 footer p {
   margin: 0;
+}
+
+footer a {
+  color: var(--text-color);
 }
