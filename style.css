@@ -22,14 +22,6 @@ img {
   display: block;
 }
 
-main {
-  width: 75%;
-}
-
-aside {
-  width: 20%;
-}
-
 h1,
 h2,
 h3 {
@@ -57,6 +49,7 @@ p {
 }
 
 header {
+  text-align: center;
   background: var(--text-color);
   padding: 2em 0;
 }
@@ -122,6 +115,7 @@ strong {
 
 .container-flex {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -137,12 +131,13 @@ nav {
 nav ul {
   list-style-type: none;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   padding: 0;
 }
 
 nav li {
-  margin-left: 2.5em;
+  margin: 0.5em 0;
 }
 
 nav a {
@@ -165,21 +160,25 @@ nav a:focus {
   color: var(--background-color);
 }
 
-@media (max-width: 675px) {
+@media (min-width: 675px) {
   .container-flex {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   nav ul {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   nav li {
-    margin: 0.5em 0;
+    margin-left: 2.5em;
   }
 
-  header {
-    text-align: center;
+  main {
+    width: 75%;
+  }
+
+  aside {
+    width: 20%;
   }
 }
 
