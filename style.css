@@ -209,6 +209,25 @@ nav a:focus {
   order: 1;
 }
 
+.featured-article {
+  display: flex;
+  flex-direction: column;
+}
+
+.article-img {
+  order: -2;
+}
+
+.article-info {
+  order: -1;
+}
+
+.article-img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
 @media (min-width: 675px) {
   .recent-articles {
     flex-direction: row;
@@ -222,19 +241,13 @@ nav a:focus {
   .recent-articles-img {
     width: 30%;
   }
-
-  .featured-article {
-    display: flex;
-    flex-direction: column;
-  }
-
   .article-img {
-    order: -2;
+    max-height: 200px;
   }
+}
 
-  .article-info {
-    order: -1;
-  }
+.widget-title {
+  text-transform: uppercase;
 }
 
 footer {
