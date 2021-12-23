@@ -17,6 +17,19 @@ body {
   font-size: 1.125rem;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+}
+
+main {
+  max-width: 75%;
+}
+
+aside {
+  max-width: 20%;
+}
+
 h1,
 h2,
 h3 {
@@ -107,7 +120,7 @@ strong {
   margin: 0 auto;
 }
 
-.container-navigation {
+.container-flex {
   display: flex;
   justify-content: space-between;
 }
@@ -153,7 +166,7 @@ nav a:focus {
 }
 
 @media (max-width: 675px) {
-  .container-navigation {
+  .container-flex {
     flex-direction: column;
   }
 
@@ -173,7 +186,6 @@ nav a:focus {
 /* BODY */
 
 .featured-article {
-  width: 90%;
   border-bottom: 1px solid var(--text-color);
 }
 
