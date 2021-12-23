@@ -182,7 +182,7 @@ nav a:focus {
   }
 }
 
-/* BODY */
+/* articles */
 
 .featured-article {
   border-bottom: 1px solid var(--text-color);
@@ -190,12 +190,18 @@ nav a:focus {
   margin-bottom: 2em;
 }
 
-.featured-photo {
-  max-width: 100%;
+.recent-articles {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
 }
 
-.img-preview {
-  max-width: 100%;
+.recent-articles-body {
+  order: 2;
+}
+
+.recent-articles-img {
+  order: 1;
 }
 
 footer {
