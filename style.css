@@ -186,6 +186,8 @@ nav a:focus {
 
 .featured-article {
   border-bottom: 1px solid var(--text-color);
+  padding-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 .featured-photo {
