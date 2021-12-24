@@ -235,11 +235,11 @@ nav a:focus {
   }
 
   .recent-articles-body {
-    width: 68%;
+    width: 70%;
   }
 
   .recent-articles-img {
-    width: 30%;
+    width: 25%;
   }
 
   .article-img {
@@ -267,4 +267,48 @@ footer p {
 
 footer a {
   color: var(--text-color);
+}
+
+/* widgets */
+
+.widget-img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  order: 1;
+}
+
+.sidebar-widget {
+  border: 15px solid var(--dark-accent);
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.widget-title {
+  font-size: 0.9em;
+  letter-spacing: 3.6px;
+  margin-bottom: 1em;
+}
+
+.widget-body {
+  font-size: 14px;
+  margin-top: 1.5em;
+}
+
+.widget-recent-posts {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--text-color);
+  margin-bottom: 2em;
+}
+
+.recent-post-title {
+  font-size: 16px;
+  order: 2;
+  margin: 1.5em 0;
+}
+
+.widget-remove-bd {
+  border: none;
+  margin: 0;
 }
