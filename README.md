@@ -36,7 +36,7 @@ To learn how to create mobile-first workflow responsive design.
 
 ### What I learned
 
-I learned how to create mobile-first workflow responsive multi-page blog.
+I learned how to create mobile-first workflow responsive multi-page blog. I also learned how to use CSS to reuse photos by croping them instead of uploading different sizes.
 
 ### Continued development
 
