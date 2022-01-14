@@ -66,7 +66,7 @@ header {
 footer {
   text-align: center;
   background: var(--main-color);
-  color: var(--background-color);
+  color: rgba(255, 255, 255, 0.65);
   padding: 2em 0;
 }
 
@@ -85,7 +85,7 @@ a {
 
 a:hover,
 a:focus {
-  color: var(--text-color);
+  color: blue;
 }
 
 strong {
