@@ -101,7 +101,7 @@ strong {
   font-family: var(--subheader-font);
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 2.8px;
+  letter-spacing: 2px;
 }
 
 .logo-subtitle {
@@ -145,13 +145,6 @@ strong {
 
 /* navigation */
 
-nav {
-  text-transform: uppercase;
-  letter-spacing: 3.2px;
-  font-weight: bold;
-  font-size: 16px;
-}
-
 nav ul {
   list-style-type: none;
   display: flex;
@@ -167,6 +160,10 @@ nav li {
 nav a {
   text-decoration: none;
   color: var(--background-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 16px;
   padding: 0.25em 0;
   transition: all 150ms ease-in-out;
 }
@@ -288,7 +285,7 @@ nav a:focus {
 
 .widget-title {
   text-transform: uppercase;
-  letter-spacing: 3.6px;
+  letter-spacing: 2px;
   margin-bottom: 1em;
 }
 
