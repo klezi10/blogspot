@@ -33,6 +33,7 @@ To learn how to create mobile-first workflow responsive design.
 - CSS
 - Flexbox
 - Mobile-first workflow
+- Vanilla JavaScript
 
 ### What I learned
 
