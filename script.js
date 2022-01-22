@@ -21,3 +21,28 @@ footer.innerHTML = `
 `;
 
 document.querySelector('.footer').append(footer);
+
+// =====================================NAVBAR=============
+
+const navbar = document.createElement('ul');
+
+navbar.innerHTML = `
+<li><a href="index.html">Home</a></li>
+            <li><a href="about-me.html">About</a></li>
+            <li><a href="recent-posts.html">Recent posts</a></li>
+`;
+
+document.querySelector('.navigation').append(navbar);
+
+function highlightCurrentURL() {
+  let a = document.querySelector('.navigation').getElementsByTagName('a');
+  for (let i = 0; i < a.length; i++) {
+    if (a[i].href.split('#')[0] == document.location.href.split('#')[0]) {
+      a[i].className = 'current-page';
+    }
+  }
+}
+
+window.onload = function () {
+  highlightCurrentURL();
+};
