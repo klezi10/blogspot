@@ -88,6 +88,10 @@ a:focus {
   color: blue;
 }
 
+.signature {
+  font-size: 14px;
+}
+
 strong {
   font-weight: bold;
 }

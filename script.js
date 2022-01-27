@@ -29,7 +29,7 @@ const footer = document.createElement('footer');
 
 footer.innerHTML = `
 <p>Blogspot</p>
-      <p>
+      <p class="signature">
         This project was coded by
         <a
           href="https://clever-turing-3f9e94.netlify.app/"
