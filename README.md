@@ -49,4 +49,4 @@ I used the Scrimba Responsive Design course to improve the project.
 
 ## Author
 
-- Portfolio (https://clever-turing-3f9e94.netlify.app/)
+- Portfolio (hhttps://www.klesdev.com/)

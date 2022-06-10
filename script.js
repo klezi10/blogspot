@@ -32,7 +32,7 @@ footer.innerHTML = `
       <p class="signature">
         This project was coded by
         <a
-          href="https://clever-turing-3f9e94.netlify.app/"
+          href="https://www.klesdev.com/"
           target="_blank"
           title="Portfolio link"
           >Klesta Luli</a
