@@ -49,4 +49,4 @@ I used the Scrimba Responsive Design course to improve the project.
 
 ## Author
 
-- Portfolio (hhttps://www.klesdev.com/)
+- Portfolio (https://www.klesdev.com/)
